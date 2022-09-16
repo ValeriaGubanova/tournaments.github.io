@@ -1,0 +1,66 @@
+* {
+    font-family: 'Nunito Sans', sans-serif;
+    outline: none !important
+  }
+
+}
+@media all and (max-width : 480px) {
+
+}
+
+@media all and (min-width : 900px) {
+
+}
+
+.sub-form{
+  margin-top: 3%;
+}
+
+
+.banner {
+  padding-top: 5%;
+  height: 41.1em;
+    width:100%;
+}
+.image {
+  background: rgba(0,0,0,0.7)url('714052.jpg') no-repeat  fixed;
+  background-size: cover;
+width: 100vw; height: 100vh;
+  position: fixed;
+background-blend-mode: darken;
+}
+.Caption_All {
+  text-align: center;
+  max-width: 500px;
+  margin: 10% auto;
+}
+.align-middle {
+
+}
+.caption {
+  font-size: 45px;
+  height: auto;
+  color: #fff;
+}
+
+.sub-caption {
+  font-size: 25px;
+  height: auto;
+  color: #fff;
+}
+
+.button_ {
+  margin: 3%;
+  float:right;
+    text-decoration: none;
+    width: 200px;
+    height: 40px;
+    border: 2px solid #fff;
+    color: #fff;
+    background: rgba(240, 255, 240, 0);
+}
+.button_:hover {
+    background: #fff;
+    color: #E756FD;
+    font-weight: 1000;
+}

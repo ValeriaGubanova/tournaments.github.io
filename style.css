@@ -1,0 +1,164 @@
+* {
+  margin-left:0;
+  font-family: 'Nunito Sans', sans-serif;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.menu-2, .nav-link{
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+.menu-2:hover, .nav-link:hover {
+  color: rgba(255, 161, 8, 1);
+  text-decoration:underline;
+}
+.col-1 {
+  height: 2.5em;
+}
+
+.menu {
+  margin-top: 1.3em;
+}
+.button_login, .search {
+  margin-right: 3em;
+}
+.button_login {
+  margin-top: -0.2em;
+  height: 2.5em;
+}
+.heder {
+  background: rgb(118, 72, 192);
+  height: 4em;
+}
+
+.tests {
+  background: linear-gradient(to bottom right, #E756FD, #82BEFC);
+
+}
+.card-text:hover {
+  text-decoration: none;
+}
+
+.button {
+  height: 1em;
+}
+
+.description {
+  background: rgba(33,20,54,0.9);
+  z-index: 1;
+  position:absolute;
+  margin: 10% 20%;
+  width: 60%;
+  height: 50%;
+}
+.description_p {
+  z-index: 1;
+  color: #fff;
+  font-size: 3em;
+  text-align: center;
+  margin-top: 4%;
+}
+.sub-description_p {
+  z-index: 1;
+  color: #fff;
+
+  text-align: center;
+}
+@media all and (max-width : 480px) {
+  .sub-description_p {
+    font-size: 3.3vw;
+
+  }
+  .description_p {
+    font-size: 5vw;
+  }
+  .description, .sub-banner2, .sub-banner {
+    height: 29%;
+    margin-top: 3em;
+  }
+  .sub-banner {
+    margin: 20% 30%;
+  }
+  .sub-banner2 {
+      margin:40% 15%;
+  }
+  .description {
+    margin: 30% 20%;
+  }
+  .menu-2 {
+    font-size: 0.8em;
+    margin-left: -10px;
+  }
+  .button_login {
+    margin-right: -0px;
+    margin-top: -0.6em;
+  }
+  .banner {
+    height: 450px;
+  }
+}
+@media all and (min-width : 900px) {
+  .sub-description_p {
+    font-size: 1.6em;
+  }
+  .sub-banner2 {
+    height: 35%;
+    margin:22% 15%;
+  }
+  .sub-banner {
+    height: 50%;
+    margin: 5% 30%;
+  }
+  .banner {
+  height:700px;
+  }
+  .description {
+    margin: 10% 20%;
+  }
+}
+
+.nav-item {
+  margin-left: 12vh;
+}
+.navbar {
+  background: rgba(157,104,242,1);
+}
+
+.card-body {
+  background: rgba(255,184,155,0.4);
+  color: #000;
+  font-size: 20px;
+}
+.col-md-4 a:hover {
+  text-decoration: none;
+}
+.card-img-top img {
+  height: 15em;
+  width: 100%;
+}
+
+
+.block_test:hover {
+  box-shadow: 0 0 20px 20px rgba(255, 184, 125, 0.7);
+  transition: box-shadow 0.6s;
+}
+.banner {
+  width:100%;
+  background: linear-gradient(to bottom right, #82BEFC, #E756FD);
+  background-size: cover;
+}
+
+.sub-banner {
+  position: absolute;
+  width: 60%;
+  background: rgba(255, 161, 8, 0.6);
+}
+.sub-banner2 {
+  position:absolute;
+  width: 40%;
+  background: rgba(240, 29, 73, 0.6);
+  z-index: 1;
+}
